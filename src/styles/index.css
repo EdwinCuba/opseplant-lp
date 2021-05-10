@@ -83,7 +83,7 @@ main{
 }
 .about h2{
   font-family: 'Overpass', sans-serif;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 600;
   color: var(--bg-header);
 }
@@ -108,6 +108,66 @@ main{
   margin: 10px 0;
 }
 
+.services{
+  width: 100%;
+  padding: 10px;
+}
+.services h2{
+  text-align: center;
+  font-family: 'Overpass', sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--bg-header);
+}
+.services .container{
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.services .container .card{
+  width: 100%;
+  padding: 30px;
+  margin: 40px 0;
+  background-color: var(--bg-header);
+  color: var(--white);
+  text-align: left;
+}
+.card .card-img{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.services .container .card img{
+  height: 120px;
+  margin-bottom: 50px;
+}
+.services .container .card h3{
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-family: 'Overpass', sans-serif;
+  margin-bottom: 10px;
+}
+.services .container .card p{
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 2rem;
+  margin-bottom: 80px;
+}
+.services .container .card button{
+  width: 120px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  background-color: var(--white);
+  outline: none;
+  font-size: 1.6rem;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 600;
+  color: var(--body-text);
+}
+
 footer{
   width: 100%;
   padding: 30px 20px;
@@ -119,7 +179,7 @@ footer{
   justify-content: center;
 }
 .information h2{
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 600;
   line-height: 2.5rem;
   margin-bottom: 10px;
